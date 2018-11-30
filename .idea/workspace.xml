@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="050e7a75-18d4-419c-9e96-a5577c70ba07" name="Default" comment="" />
+    <list default="true" id="050e7a75-18d4-419c-9e96-a5577c70ba07" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/gaokao/spiders/专业录取.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,13 +14,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="学校热度.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="学校热度.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gaokao/spiders/学校热度.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
+            <state relative-caret-position="150">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="专业录取.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gaokao/spiders/专业录取.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="510" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/510">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="214" column="26" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="school2" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/school2">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="school3" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/school3">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="gaokao_spider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gaokao/spiders/gaokao_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -26,8 +81,8 @@
       <file leaf-file-name="高考分数.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gaokao/spiders/高考分数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="950">
+              <caret line="38" column="107" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="38" selection-end-column="107" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -67,6 +122,9 @@
       <find>li-nomalTab li-nomalTab5 li-table2</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -79,15 +137,17 @@
         <option value="$PROJECT_DIR$/gaokao/spiders/test.py" />
         <option value="$PROJECT_DIR$/gaokao/spiders/高考分数.py" />
         <option value="$PROJECT_DIR$/gaokao/spiders/学校热度.py" />
+        <option value="$PROJECT_DIR$/gaokao/spiders/专业录取.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="7" />
     <option name="y" value="250" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -197,12 +257,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13411458" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5032552" side_tool="true" weight="0.4131327" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49674478" weight="0.28317374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -265,6 +324,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -276,30 +338,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gkcx.eol.cn" />
-    <entry file="file://$PROJECT_DIR$/510">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="214" column="26" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/school" />
-    <entry file="file://$PROJECT_DIR$/gaokao/spiders/gaokao_spider.py">
+    <entry file="file://$PROJECT_DIR$/gaokao/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school3">
+    <entry file="file://$PROJECT_DIR$/gaokao/spiders/gaokao_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="175">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -310,27 +368,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gaokao/spiders/高考分数.py">
+    <entry file="file://$PROJECT_DIR$/510">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="25">
+          <caret line="214" column="26" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaokao/spiders/学校热度.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gaokao/settings.py">
+    <entry file="file://$PROJECT_DIR$/gaokao/spiders/高考分数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="950">
+          <caret line="38" column="107" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="38" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gaokao/spiders/学校热度.py">
+    <entry file="file://$PROJECT_DIR$/gaokao/spiders/专业录取.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
+        <state relative-caret-position="600">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
