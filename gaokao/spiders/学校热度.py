@@ -24,6 +24,7 @@ class gaokao(scrapy.Spider):
         str = response.url.split("&")
         page = int(str[1].split("=")[1])
         sites=json.loads(response.body)
+        print(sites)
         connection = pymysql.connect("localhost", "root", "123456", "dblogin")
         cursor = connection.cursor()
         schools=sites['school']

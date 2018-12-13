@@ -8,7 +8,23 @@
 import scrapy
 
 
-class GaokaoItem(scrapy.Item):
+class hotRankItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    schoolid = scrapy.Field()
+    schoolname = scrapy.Field()
+    clicks = scrapy.Field()
+    province = scrapy.Field()
+    schooltype = scrapy.Field()
+    schoolproperty = scrapy.Field()
+    f985 = scrapy.Field()
+    f211 = scrapy.Field()
+    schoolnature = scrapy.Field()
+    shoufei = scrapy.Field()
+    jianjie = scrapy.Field()
+    schoolcode = scrapy.Field()
+    ranking = scrapy.Field()
+    rankingCollegetype = scrapy.Field()
+    guanwang = scrapy.Field()
+    other = scrapy.Field()
     pass
