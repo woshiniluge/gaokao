@@ -28,3 +28,39 @@ class hotRankItem(scrapy.Item):
     guanwang = scrapy.Field()
     other = scrapy.Field()
     pass
+#定义学校对各省录取分数线
+class schoolScoreItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    schoolid = scrapy.Field()
+    schoolname = scrapy.Field()
+    localprovince = scrapy.Field()
+    province = scrapy.Field()
+    studenttype = scrapy.Field()
+    year = scrapy.Field()
+    batch = scrapy.Field()
+    var = scrapy.Field()
+    max = scrapy.Field()
+    min = scrapy.Field()
+    fencha = scrapy.Field()
+    provincescore = scrapy.Field()
+    url = scrapy.Field()
+    pass
+#定义专业对各省录取分数线
+class majorScoreItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    schoolid = scrapy.Field()
+    schoolname = scrapy.Field()
+    localprovince = scrapy.Field()
+    province = scrapy.Field()
+    studenttype = scrapy.Field()
+    year = scrapy.Field()
+    batch = scrapy.Field()
+    var = scrapy.Field()
+    max = scrapy.Field()
+    min = scrapy.Field()
+    fencha = scrapy.Field()
+    provincescore = scrapy.Field()
+    url = scrapy.Field()
+    pass

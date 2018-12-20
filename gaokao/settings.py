@@ -69,9 +69,14 @@ HTTPERROR_ALLOWED_CODES = [403]
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     #'gaokao.pipelines.GaokaoPipeline': 300,
-    'gaokao.MySQLPipeline.MysqlPipeline': 300,
+    # 'gaokao.MySQLPipeline.MysqlPipeline': 300,
+    # 'gaokao.SchoolPipeline.SchoolPipeline':300
 }
-
+DOWNLOAD_DELAY = 0
+CONCURRENT_REQUESTS = 100
+CONCURRENT_REQUESTS_PER_DOMAIN = 100
+CONCURRENT_REQUESTS_PER_IP = 100
+COOKIES_ENABLED = False
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
